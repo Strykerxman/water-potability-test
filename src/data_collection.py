@@ -3,7 +3,7 @@ import numpy as np
 import os
 from sklearn.model_selection import train_test_split
 
-data = pd.read_csv(r'C:\Users\Martin\Downloads\water_potability.csv')
+data = pd.read_csv('./data/water_potability.csv')
 
 train_data, test_data = train_test_split(data, test_size=0.20, random_state=42)
 

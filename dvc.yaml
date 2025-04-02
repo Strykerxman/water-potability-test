@@ -13,3 +13,11 @@ stages:
     - src/data_prep.py
     outs:
     - data/processed
+
+  model_building:
+    cmd: python src/model_building.py
+    deps:
+    - data/processed
+    - src/model_building.py
+    outs:
+    - model.pkl
