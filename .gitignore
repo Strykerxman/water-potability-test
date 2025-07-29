@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+#/model.pkl
+#/metrics.json
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -87,3 +91,4 @@ target/
 
 # Mypy cache
 .mypy_cache/
+>>>>>>> 930dc2aa98329400b3f50cfe45ba934de7ac8c5f
